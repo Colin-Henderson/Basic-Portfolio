@@ -1,0 +1,53 @@
+body {
+	background:url(../images/tileable_wood_texture.png);
+}
+
+
+header {
+	width: 252px;
+	background-color: #4aaaa5;
+	color: white;
+	text-align: center;
+	font-family: 'Permanent Marker';
+}
+
+section {
+	font-family: arial;
+}
+#body{
+	width: 960px;
+	
+}
+
+#left {
+	float: left;
+	width: 650px;
+	overflow: auto
+
+}
+
+#right{
+	font-size:30px;
+	float: right;
+	width: 270px;
+}
+
+.logos {
+	width: 80px;
+	height: 80px;
+	float: right;
+	padding:5px;
+	border:5px;
+}
+
+h1 {
+	color: #4aaaa5;
+	text-align: center;
+	font-family: 'Permanent Marker';
+}
+
+
+
+
+
+
