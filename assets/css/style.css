@@ -1,14 +1,48 @@
+* {
+	box-sizing: border-box;
+	text-align: center;
+}
+
+header{
+	padding: 20px;
+	margin-bottom: 20px;
+	
+}
+
+.nav {
+	border: solid black;
+	border-radius: 7px;
+	background-clip: content-box;
+	background: #4aaaa5;
+	overflow: hidden;
+}
+
+#pic{
+float: right;
+border: solid #4aaaa5;
+border-radius: 7px;
+}
+
+
+
+
 body {
 	background:url(../images/tileable_wood_texture.png);
 }
 
 
-header {
-	width: 252px;
+h1 {
+	width: 25%;
 	background-color: #4aaaa5;
 	color: white;
+	font-size: 17px;
 	text-align: center;
 	font-family: 'Permanent Marker';
+	padding-top: 20px;
+	padding-bottom:20px;
+	color:white;
+	float:left;
+	overflow: auto;
 }
 
 section {
@@ -22,7 +56,10 @@ section {
 #left {
 	float: left;
 	width: 650px;
-	overflow: auto
+	border: solid #4aaaa5;
+	border-radius: 7px;
+	background: white;
+	background-clip: content box;
 
 }
 
@@ -35,19 +72,28 @@ section {
 .logos {
 	width: 80px;
 	height: 80px;
-	float: right;
+	float: left;
 	padding:5px;
 	border:5px;
 }
 
-h1 {
+h2 {
 	color: #4aaaa5;
 	text-align: center;
 	font-family: 'Permanent Marker';
 }
 
-
-
-
+#one{
+	float: left;
+ width: 250px;
+ border: solid black;
+border-radius: 7px;
+background-clip: content-box;
+background: #4aaaa5;
+}
+/*Need to come back to this (need to apply the name on top of picture and also float the picture rather than just making it fit into the section*/
+.work {
+width: 640px;
+}
 
 
